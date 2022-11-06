@@ -1,0 +1,13 @@
+.header__lang-links {
+  display: inline-block;
+  min-width: 78px;
+  min-height: 28px;
+  padding: 0;
+}
+
+@media screen and (max-width: 544px) {
+  .header__lang-links {
+    min-width: 62px;
+    min-height: 22px;
+  }
+}
