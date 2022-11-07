@@ -2,7 +2,7 @@
   display: inline-block;
   min-width: 78px;
   min-height: 28px;
-  padding: 0;
+  padding: 0 0 6px 0;
 }
 
 @media screen and (max-width: 544px) {
