@@ -1,18 +1,25 @@
 .footer {
   font-family: 'Inter', 'Arial', sans-serif;
   max-width: 1184px;
-  width: 100%;
-  /* max-height: 18px; */
+  width: calc(100% - 96px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0 auto;
+  margin: 0 48px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 896px) {
+  .footer {
+    width: calc(100% - 48px);
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
   .footer {
     flex-direction: column;
-    padding: 0 0 0 16px;
+    width: calc(100% - 134px);
+    margin: 0 118px 0px 16px;
   }
 }
