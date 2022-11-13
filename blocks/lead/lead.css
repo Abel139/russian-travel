@@ -2,6 +2,7 @@
   font-family: 'Inter', 'Arial', sans-serif;
   width: calc(100% - 296px);
   margin: 0 148px;
+  padding: 0;
   box-sizing: border-box;
 }
 
