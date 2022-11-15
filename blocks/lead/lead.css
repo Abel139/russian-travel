@@ -1,5 +1,4 @@
 .lead {
-  font-family: 'Inter', 'Arial', sans-serif;
   width: calc(100% - 296px);
   margin: 0 148px;
   padding: 0;
@@ -8,7 +7,8 @@
 
 @media screen and (max-width: 1152px) {
   .lead {
-    margin: 0 48px;
+    margin-right: 48px;
+    margin-left: 48px;
     width: calc(100% - 96px);
   }
 }

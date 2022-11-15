@@ -1,5 +1,4 @@
 .intro__text {
-  min-height: 208px;
   margin-bottom: 33px;
   font-weight: 400;
   font-size: 16px;
@@ -8,7 +7,6 @@
 
 @media screen and (max-width: 544px) {
   .intro__text {
-    min-height: 520px;
     margin-bottom: 33px;
   }
 }
