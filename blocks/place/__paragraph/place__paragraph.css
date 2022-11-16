@@ -13,12 +13,6 @@
   }
 }
 
-@media screen and (max-width: 750px) {
-  .place__paragraph {
-    max-width: auto;
-  }
-}
-
 @media screen and (max-width: 321px) {
   .place__paragraph {
     margin-right: 16px;
